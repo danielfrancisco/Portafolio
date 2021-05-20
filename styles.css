@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+#na{
+    height: 16vh;
+    background: black;
+    z-index: 2;
+   
+}
+#drop{
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: normal;
+    position: relative;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    top: 16px;
+    height: 5vh;
+    left: 20px;
+    line-height: 1.194vh;
+    position: absolute;
+    
+}
+
+#linkname{
+    position: relative;
+    font-family: "Roboto";
+    color: white;
+    left: 15vh;
+    font-weight: bold;
+    top: 33px;
+    font-size: large;
+    position: absolute;
+}
+
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+
+
+#linkname:hover{
+    color: gray;
+}
+head{
+    overflow-x: hidden;
+}
+body{
+    overflow-x: hidden;
+    
+    margin: none;
+    margin:0;
+    background: #262626;
+    height: 100vh;
+}
+
+.cuerpo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url("./fondo\ resume.jpg");
+    background-repeat: no-repeat;
+    margin: 0px;
+    background-size: contain;
+    z-index: 1;
+    
+}
+
+.medios{
+    position: relative;
+    left: 150px;
+    top: 50px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+.py{
+    position: relative;
+    left: 180px;
+    top: 50px;
+    font-size: 2.4vw;
+    color: white;
+    cursor: pointer;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+.js{
+    position: relative;
+    left: 180px;
+    top: 75px;
+    font-size: 2.4vw;
+    color: white;
+    cursor: pointer;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+.cplus{
+    position: relative;
+    left: 180px;
+    top: 70px;
+    font-size: 2.4vw;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.dj{
+    position: relative;
+    left: 180px;
+    top: 165px;
+    font-size: 2.4vw;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.html{
+    position: relative;
+    left: 180px;
+    top: 160px;
+    font-size: 2.4vw;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+
+    
+}
+
+
+.cs{
+    position: relative;
+    left: 180px;
+    top: 180px;
+    font-size: 2.4vw;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-family: "Roboto";
+    font-weight: bold;
+    
+}
+
+
+
+
+#bar2{
+    position: relative;
+    top: -12px;
+}
+
+#home:hover{
+    color: gray;
+}
+
+#pl{
+    color: gray;
+    position: relative;
+    top: 80px;
+    left: -0px;
+    font-family: "Roboto";
+    font-weight: lighter;
+    
+   }
+
+#hl{
+ color: gray;
+ position: relative;
+ top: 90px;
+ left: 0px;
+ font-family: "Roboto";
+ font-weight: lighter;
+ 
+}
+
+#porl{
+    color: gray;
+    position: relative;
+    top: 80px;
+    left: 0px;
+    font-family: "Roboto";
+    font-weight: lighter;
+    
+   }
+
+
+#el{
+    color: gray;
+    position: relative;
+    
+    top: 60px;
+    left: 0px;
+    font-family: "Roboto";
+    font-weight: lighter;
+   }
+
+#home{
+    position: relative;
+    font-family: "Roboto";
+    left: 55px;
+    color: white;
+    text-decoration: none;
+    top: 110px;
+    font-weight: bold;
+    
+    
+    font-size: 25px;
+    
+}
+
+#por{
+    position: relative;
+    font-family: "Roboto";
+    left: 50px;
+    color: white;
+    text-decoration: none;
+    top: 90px;
+    font-weight: bold;
+    font-size: 25px;
+   
+    
+}
+.por:hover{
+    color: gray;
+}
+#ex{
+    position: relative;
+    font-family: "Roboto";
+    left: 50px;
+    color: white;
+    text-decoration: none;
+    top: 75px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.ex:hover{
+    color: gray;
+}
+.ti{
+    position: relative;
+    font-family: "Roboto";
+    top: -50px;
+    left: 4vh;
+    color: white;
+    font-size: 45px;
+    font-weight: normal;
+}
+
+.full{
+    position: relative;
+    font-family: "Roboto";
+    top: -50px;
+    left: 13vh;
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+    
+    
+
+}
+.gr{
+    position: relative;
+    font-family: "Roboto";
+    top: -45px;
+    left: 10vh;
+    color: white;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.con{
+    position: relative;
+    font-family: "Roboto";
+    
+    left: 4vh;
+    height: 50px;
+    width: 150px;
+    outline:none;
+    font-weight: normal;
+    text-decoration: none;
+    color: #06c;
+    border-color: black;
+    cursor: pointer;
+    background: black;
+    border-radius: 50px;
+    line-height: 25px;
+}
+
+@media screen  and (max-height: 568px){
+    
+    .ti{
+       font-size: 35px;
+    }
+
+    .full{
+        font-size: 30px;
+    }
+
+    .gr{
+        font-size: 30px;
+        left: 90px;
+    }
+}
+
+@media screen  and (min-height: 896px){
+        
+}
+
+@media screen  and (min-height: 900px){
+    
+    .ti{
+       font-size: 35px;
+       left: 20px;
+       
+    }
+ 
+    .full{
+      
+        font-size: 34px;
+    }
+
+    .gr{
+        font-size: 34px;
+    }
+}
+
+
+@media screen  and (min-width: 700px) and (min-height: 700px){
+    #drop{
+        display: none;
+    }
+
+    
+
+    #home{
+        top: 0px;
+        left: 500px;
+        font-size: large;
+    }
+
+    #por{
+        top: -72px;
+        left: 600px;
+        font-size: large;
+
+    }
+
+    #ex{
+        top: -148px;
+        left: 730px;
+        font-size: large;
+    }
+
+    
+    
+}
+
+
+
+@media screen  and (min-width: 1280px) and (min-height: 657px){
+    
+    
+    
+    #pl{
+        color: black;
+    }
+    
+    
+   #drop{
+        display: none;
+    }
+
+    #linkname{
+     font-size: 1.4vw;
+     top: 45px;
+    }
+
+    #home{
+        position: relative;
+        font-family: "Roboto";
+        left: 705px;
+        color: white;
+        text-decoration: none;
+        top: -11px;
+        font-weight: bold;
+        font-size: 1.4vw;
+    }
+    
+    #por{
+        position: relative;
+        font-family: "Roboto";
+        left: 800px;
+        color: white;
+        text-decoration: none;
+        top: -81px;
+        font-weight: bold;
+        font-size: 1.4vw;
+       
+        
+    }
+
+    #ex{
+        position: relative;
+        font-family: "Roboto";
+        left: 915px;
+        color: white;
+        text-decoration: none;
+        top: -153px;
+        font-size: 1.4vw;
+        font-weight: bold;
+        
+    }
+    
+    .ti{
+        position: relative;
+        font-family: "Roboto";
+        top: -50px;
+        left: 31vw;
+        color: white;
+        font-size: 4vw;
+        
+        font-weight: normal;
+    }
+    
+    .full{
+        position: relative;
+        font-family: "Roboto";
+        top: -50px;
+        left: 32vw;
+        color: white;
+        font-size: 3vw;
+        font-weight: normal;
+        
+        
+    
+    }
+    .gr{
+        position: relative;
+        font-family: "Roboto";
+        top: -45px;
+        left: 32vw;
+        color: white;
+        font-size: 3;
+        font-weight: normal;
+    }
+    
+    .con{
+        position: relative;
+        font-family: "Roboto";
+        
+        left: 32vw;
+        height: 50px;
+        width: 150px;
+        outline:none;
+        font-weight: normal;
+        text-decoration: none;
+        color: #06c;
+        border-color: black;
+        cursor: pointer;
+        background: black;
+        border-radius: 50px;
+        line-height: 25px;
+        
+        
+    }
+    
+
+    #conn{
+        color: #2997ff;
+    }
+
+    #conn:hover{
+        color: #3ddc84;
+    }
+
+    
+    
+    #ex:hover{
+        color: gray;
+    }
+
+    #por:hover{
+        color: gray;
+    }
+
+    
+
+    
+}
+
+
+
+

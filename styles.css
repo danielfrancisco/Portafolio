@@ -63,7 +63,7 @@ body{
     background-image: url("./fondo\ resume.jpg");
     background-repeat: no-repeat;
     margin: 0px;
-    background-size: contain;
+    background-size: cover;
     z-index: 1;
     
 }
@@ -292,12 +292,16 @@ body{
     line-height: 25px;
 }
 
-@media screen  and (max-height: 568px){
+@media screen  and (max-width: 568px){
     
     .ti{
        font-size: 35px;
     }
-
+   
+    #na{
+        height: 14vh;
+    }
+    
     .full{
         font-size: 30px;
     }
@@ -305,6 +309,14 @@ body{
     .gr{
         font-size: 30px;
         left: 90px;
+    }
+
+    #conn{
+        color: #2997ff;
+    }
+
+    #conn:hover{
+        color: #3ddc84;
     }
 }
 

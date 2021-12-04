@@ -8,6 +8,8 @@ var che = window.mobileCheck = function() {
     return check;
   };
 
+  
+  
 
 if(window.innerHeight <= 667){
     nav.style.height = "48vh"
